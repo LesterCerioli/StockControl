@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ControleEstoque.Infraestrutura.Apoio
+namespace ControleEstoque.Infraestrutura.Modulos
 {
-    internal class Class1
+    public interface IEntidadeBaseComTipoId<TId>
     {
+        TId Id { get; }
     }
 }
