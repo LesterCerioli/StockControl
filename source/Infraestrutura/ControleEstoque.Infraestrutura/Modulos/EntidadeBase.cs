@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ControleEstoque.Infraestrutura.Modulos
 {
-    internal class Class1
+    public abstract class EntidadeBase : EntidadeBaseComTipoId<long>
     {
     }
 }
